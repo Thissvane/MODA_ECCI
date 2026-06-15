@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glossary — Moda ECCI</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-moda sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Moda <span>ECCI</span></a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon" style="filter:invert(1);"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="glossary.html">Glossary</a></li>
+          <li class="nav-item"><a class="nav-link" href="sostenibilidad.html">Sostenibilidad</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" style="padding:70px 0 55px;">
+    <div class="container">
+      <p class="hero-label"><i class="fa-solid fa-book-open me-1"></i> Technical vocabulary</p>
+      <h1 style="font-size:clamp(2rem,5vw,3.5rem);">Technical<br>Glossary</h1>
+      <p class="lead">Key terms from the Moda ECCI event — definitions sourced from the Cambridge Dictionary.</p>
+      <span class="badge-pantone">ES / EN</span>
+      <span class="badge-pantone">+15 Terms</span>
+    </div>
+  </section>
+
+  <main class="container py-5">
+
+    <!-- BUSCADOR -->
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-6">
+        <div class="input-group">
+          <span class="input-group-text" style="background:var(--deep);border-color:var(--deep);color:white;">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input
+            type="text"
+            id="glossaryFilter"
+            class="form-control"
+            placeholder="Filter by English term, Spanish, or definition…"
+            style="border-color:#ddd;" />
+        </div>
+        <p class="small text-muted mt-1">
+          <i class="fa-solid fa-circle-info me-1"></i>
+          Definitions sourced from the <a href="https://dictionary.cambridge.org" target="_blank" rel="noopener">Cambridge Dictionary</a>.
+        </p>
+      </div>
+    </div>
+
+    <!-- LEYENDA BILINGÜE -->
+    <div class="lang-divider"><span class="lang-tag"><i class="fa-solid fa-flag me-1"></i> Español · English</span></div>
+    <p class="mb-4 text-muted small">
+      La tabla contiene los términos técnicos en inglés con su traducción al español y su definición basada en el diccionario Cambridge. / 
+      The table contains technical terms in English with their Spanish translation and definition based on the Cambridge Dictionary.
+    </p>
+
+    <!-- TABLA GLOSARIO -->
+    <div class="table-responsive shadow-sm rounded">
+      <table class="table table-bordered table-hover mb-0 table-glossary" id="glossaryTable">
+        <thead>
+          <tr>
+            <th style="width:18%;"><i class="fa-solid fa-globe me-1"></i> English</th>
+            <th style="width:18%;">Español</th>
+            <th>Definition <span class="badge-en ms-2">Cambridge</span></th>
+          </tr>
+        </thead>
+        <tbody>
+
+          <tr>
+            <td><strong>Colour theory</strong></td>
+            <td>Teoría del color</td>
+            <td>The study of colour and how it can be combined or used; a set of principles used to understand the relationships between colours.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Hue</strong></td>
+            <td>Matiz / Tono</td>
+            <td>A colour, or a shade that is a mixture of colours; the quality of a colour as determined by its dominant wavelength.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Saturation</strong></td>
+            <td>Saturación</td>
+            <td>The degree of strength or purity of a colour; the amount by which a colour differs from grey.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Semiology</strong></td>
+            <td>Semiología</td>
+            <td>The study of signs and symbols and their use or interpretation; the science that deals with the systems of signs and symbols in communication.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Pantone</strong></td>
+            <td>Pantone</td>
+            <td>A standardised colour matching system widely used in the printing and fashion industries to ensure colour consistency across different materials and media.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Palette</strong></td>
+            <td>Paleta (de colores)</td>
+            <td>The range of colours that an artist typically uses; a set of colours available to an artist or designer for a particular work.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Contrast</strong></td>
+            <td>Contraste</td>
+            <td>A difference between two things, especially when each makes the other more noticeable; in design, the degree of visual difference between elements.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Typography</strong></td>
+            <td>Tipografía</td>
+            <td>The style and appearance of printed text; the art and technique of arranging type to make written language legible and visually appealing.</td>
+          </tr>
+
+          <tr>
+            <td><strong>User experience (UX)</strong></td>
+            <td>Experiencia de usuario</td>
+            <td>The experience a person has when using a product or service, especially in terms of how easy or pleasing it is to use.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Interface</strong></td>
+            <td>Interfaz</td>
+            <td>A connection between two pieces of computer software that allows them to work with each other; the way a computer program is presented on screen to make it easy to use.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Responsive design</strong></td>
+            <td>Diseño responsivo</td>
+            <td>A web design approach in which a website or application adjusts its layout and content automatically to provide an optimal viewing experience across a wide range of devices.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Visual identity</strong></td>
+            <td>Identidad visual</td>
+            <td>The visible elements of a brand (colours, fonts, logo, design) that together identify and distinguish it in the public's mind.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Chromatic</strong></td>
+            <td>Cromático</td>
+            <td>Relating to colour; involving or producing a range of colours from one extreme to another.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Aesthetic</strong></td>
+            <td>Estético / Estética</td>
+            <td>Relating to beauty and the study of beauty; describing something that is pleasing to the eye because of its appearance.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Hierarchy</strong></td>
+            <td>Jerarquía</td>
+            <td>A system in which people or things are arranged according to their importance; in design, the organisation of visual elements to guide the viewer's attention.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Accessibility</strong></td>
+            <td>Accesibilidad</td>
+            <td>The quality of being able to be reached or used easily; in web design, the practice of making websites usable by as many people as possible, including those with disabilities.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Brand</strong></td>
+            <td>Marca</td>
+            <td>A type of product made by a particular company; the image, name, and associations that a company or product is known by.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Creativity</strong></td>
+            <td>Creatividad</td>
+            <td>The ability to produce or use original and unusual ideas; the quality of being able to create new and original things.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Innovation</strong></td>
+            <td>Innovación</td>
+            <td>A new idea or method; the introduction of new things or ways of doing something, especially in order to be successful in the market.</td>
+          </tr>
+
+          <tr>
+            <td><strong>Digital product</strong></td>
+            <td>Producto digital</td>
+            <td>Any item or piece of media that is stored digitally and can be sold or distributed online, including software, websites, apps, and digital content.</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+    <!-- NOTA CAMBRIDGE -->
+    <div class="mt-4 p-3 rounded" style="background:var(--deep);color:rgba(255,255,255,0.85);">
+      <p class="small mb-0">
+        <i class="fa-solid fa-book me-2" style="color:var(--pantone-gold);"></i>
+        <strong>Source:</strong> Definitions adapted from the
+        <a href="https://dictionary.cambridge.org" target="_blank" rel="noopener" style="color:var(--magenta-light);">Cambridge Dictionary</a>
+        and the Cambridge Advanced Learner's Dictionary & Thesaurus. Terms were selected based on their relevance to the Moda ECCI conference on colour theory, visual semiology, and FrontEnd development.
+      </p>
+    </div>
+
+    <!-- NOTA EN ESPAÑOL -->
+    <div class="mt-3 p-3 rounded" style="background:var(--white);border-left:4px solid var(--magenta);">
+      <p class="small mb-0">
+        <i class="fa-solid fa-circle-info me-2" style="color:var(--magenta);"></i>
+        <strong>Fuente:</strong> Definiciones adaptadas del
+        <a href="https://dictionary.cambridge.org" target="_blank" rel="noopener" style="color:var(--magenta);">Diccionario Cambridge</a>.
+        Los términos fueron seleccionados por su relevancia para la conferencia de Moda ECCI sobre teoría del color, semiología visual y desarrollo FrontEnd.
+      </p>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <h5>Moda ECCI</h5>
+          <p class="small">Sitio web académico — Programa ADSO, SENA Centro de Manufactura en Textil y Cuero.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Navigation</h5>
+          <ul class="list-unstyled small">
+            <li><a href="../index.html">Home / Inicio</a></li>
+            <li><a href="experiencia.html">My Experience</a></li>
+            <li><a href="glossary.html">Glossary</a></li>
+            <li><a href="sostenibilidad.html">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Student</h5>
+          <p class="small">Vanessa González · ADSO · Instructor: Belman Marín · SENA Regional Distrito Capital</p>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <p class="small text-center mb-0">© 2025 Vanessa González · SENA ADSO</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
